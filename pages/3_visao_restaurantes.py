@@ -287,7 +287,7 @@ with tab1:
         with col2:
             st.title('Distribuição da Distância')      
             order_media_std = distance_share(df1)
-            st.data_editor(order_media_std)
+            st.dataframe(order_media_std)
            
     with st.container():
         st.title('Distribuição do Tempo')
